@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="/styles.css">
+</head>
+<body>
+    <form action="/send" method="POST">
+        <label for="dest">Destinataire :</label><br>
+        <select name="recipient" id="recipient">
+            <option value="#">Choisir</option>
+            <option value="+237692775509">First Recpient Number</option>
+        </select>
+        <label for="message" style="margin-top: 20px;">Votre message :</label><br>
+        <textarea id="message" name="message" cols="30" rows="5"></textarea><br>
+        <input type="submit" class="submit" value="Envoyer">
+    </form>
+</body>
+</html>

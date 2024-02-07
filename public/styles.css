@@ -1,0 +1,27 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+form{
+    width: 50%;
+    margin: auto;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: relative;
+    top: 100px;
+    justify-content: center;
+}
+.submit{
+    align-self: flex-end;
+    padding: 5px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.185);
+    border-radius: 10px;
+    width: 100px;
+}
+select{
+    padding: 5px;
+    border-radius: 10px;
+}
